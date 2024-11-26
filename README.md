@@ -157,6 +157,9 @@ Based on the insights from section one, I chose to develop a decision tree model
 
 The model was trained on the entire dataset without splitting into training and testing sets to ensure it could learn from all available data. The predict_best_cta function was then used to predict the ideal ctaPlacement and ctaCopy based on the provided input features.
 
+### Alternative approach 
+An alternative approach to the decision tree method would be to use clustering. For example, we could use K-means clustering with the relevant features we discussed above. To determine the ctaPlacement and ctaCopy, we would look within the cluster to see which ctaCopy and ctaPlacement had the highest click-rate. 
+
 ### Provide technical and business evaluation on the impact of your optimization, such as how model performance, engagement impact, and revenue impact.
 
 Optimization Impact:
@@ -167,3 +170,4 @@ The optimized CTA placements are expected to increase user engagement by present
 
 Revenue Impact:
 By focusing on the highest revenue-generating CTA placements, we can maximize the overall revenue. The model's ability to identify and prioritize these placements ensures that we are capitalizing on the most profitable opportunities, leading to a significant increase in revenue.
+
